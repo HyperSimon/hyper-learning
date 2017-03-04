@@ -1,48 +1,6 @@
-replay someon get :
+一下都是匿名说说的详情
+Json 的字段待整理，许多根本就不会用到的字段可以去除
 
-```json
-{
-	"ret": 0,
-	"msg": "",
-	"data": {
-		"reply": {
-			"reply_id": "815644305",
-			"content": "😂😂😂",
-			"portrait": "http://qzonestyle.gtimg.cn/qzone/secret/12.png",
-			"time": 1488379164,
-			"state": 0,
-			"uid": "",
-			"own": 1,
-			"p_uid": "3e51ea5b2359093e3eb76f77db5a4c76859e68159ee8b1a52594bb85474ef02a",
-			"p_portrait": "http://qzonestyle.gtimg.cn/qzone/secret/200007.png",
-			"oper": 65536,
-			"portrait_id": 12,
-			"p_portrait_id": 0,
-			"talk_id": "",
-			"user": {
-				"uid": "",
-				"portrait": "",
-				"qua": "V1_AND_SQ_6.6.9_482_YYB_D",
-				"deviceinfo": "n=WIFI&o=Android 6.0",
-				"is_owner": 1,
-				"_classname": "WUP_SECRET_UGC.UgcUser"
-			},
-			"p_own": 0,
-			"p_talk_id": "",
-			"p_oper": 0,
-			"_classname": "WUP_SECRET_UGC.UgcReply"
-		},
-		"err_msg": "",
-		"feedsattr": 0,
-		"_classname": "WUP_SECRET_UGC.AddUgcReplyRsp"
-	}
-}
-
-```
-
-
-
-某个聊天记录的detail
 
 ```json
 {
@@ -743,48 +701,9 @@ replay someon get :
 ```
 
 
-回复 user 我依然爱你
-
-```json
-{
-	"ret": 0,
-	"msg": "",
-	"data": {
-		"comment": {
-			"comment_id": "7de9a3108174c0095fdb64224a448164b384d914c82b1bfd7caf8608ba470c63e8fdaced50b218a5dc15a19571150dad",
-			"content": "厉害了",
-			"portrait": "http://qzonestyle.gtimg.cn/qzone/secret/200003.png",
-			"time": 1488380123,
-			"state": 0,
-			"uid": "0526fdaa74510b85f963b423db17f782efa2ddd2f4f726e14a4b493aeca3de82",
-			"own": 1,
-			"floor": 0,
-			"oper": 32768,
-			"replys": {
-				"value": []
-			},
-			"portrait_id": 200003,
-			"talk_id": "",
-			"user": {
-				"uid": "",
-				"portrait": "",
-				"qua": "V1_AND_SQ_6.6.9_482_YYB_D",
-				"deviceinfo": "n=WIFI&o=Android 6.0",
-				"is_owner": 0,
-				"_classname": "WUP_SECRET_UGC.UgcUser"
-			},
-			"_classname": "WUP_SECRET_UGC.UgcComment"
-		},
-		"err_msg": "",
-		"feedsattr": 0,
-		"_classname": "WUP_SECRET_UGC.AddUgcCommentRsp"
-	}
-}
-
-```
 
 
-回复 User 为什么没有人给我表白 
+回复某个User 发的 '为什么没有人给我表白'
 
 ```json
 {
@@ -824,7 +743,7 @@ replay someon get :
 ```
 
 
-回复 961681117 的 ggggg
+回复 961681117 的 说说 'ggggg'
 
 ```json
 {
@@ -865,132 +784,8 @@ replay someon get :
 ```
 
 
-回复 回复 我的那条的 User:
 
-
-```json
-{
-	"ret": 0,
-	"msg": "",
-	"data": {
-		"reply": {
-			"reply_id": "827776374",
-			"content": "🤔",
-			"portrait": "http://qzonestyle.gtimg.cn/qzone/secret/7.png",
-			"time": 1488380377,
-			"state": 0,
-			"uid": "",
-			"own": 1,
-			"p_uid": "c1a61ff11384a00a0cc71ebb3eedee7b35c3de1343db7c8af27b6dc2a6137246",
-			"p_portrait": "http://qzonestyle.gtimg.cn/qzone/secret/200004.png",
-			"oper": 65536,
-			"portrait_id": 7,
-			"p_portrait_id": 0,
-			"talk_id": "",
-			"user": {
-				"uid": "",
-				"portrait": "",
-				"qua": "V1_AND_SQ_6.6.9_482_YYB_D",
-				"deviceinfo": "n=WIFI&o=Android 6.0",
-				"is_owner": 1,
-				"_classname": "WUP_SECRET_UGC.UgcUser"
-			},
-			"p_own": 0,
-			"p_talk_id": "",
-			"p_oper": 0,
-			"_classname": "WUP_SECRET_UGC.UgcReply"
-		},
-		"err_msg": "",
-		"feedsattr": 0,
-		"_classname": "WUP_SECRET_UGC.AddUgcReplyRsp"
-	}
-}
-```
-
-
-同一个人：
-
-```json
-{
-	"ret": 0,
-	"msg": "",
-	"data": {
-		"reply": {
-			"reply_id": "83019433",
-			"content": "👉👈",
-			"portrait": "http://qzonestyle.gtimg.cn/qzone/secret/7.png",
-			"time": 1488380618,
-			"state": 0,
-			"uid": "",
-			"own": 1,
-			"p_uid": "c1a61ff11384a00a0cc71ebb3eedee7bee9fec1e3a93daad4e26608dd807abf8",
-			"p_portrait": "http://qzonestyle.gtimg.cn/qzone/secret/200004.png",
-			"oper": 65536,
-			"portrait_id": 7,
-			"p_portrait_id": 0,
-			"talk_id": "",
-			"user": {
-				"uid": "",
-				"portrait": "",
-				"qua": "V1_AND_SQ_6.6.9_482_YYB_D",
-				"deviceinfo": "n=WIFI&o=Android 6.0",
-				"is_owner": 1,
-				"_classname": "WUP_SECRET_UGC.UgcUser"
-			},
-			"p_own": 0,
-			"p_talk_id": "",
-			"p_oper": 0,
-			"_classname": "WUP_SECRET_UGC.UgcReply"
-		},
-		"err_msg": "",
-		"feedsattr": 0,
-		"_classname": "WUP_SECRET_UGC.AddUgcReplyRsp"
-	}
-}
-```
-
-还是同一个人:
-
-```json
-{
-	"ret": 0,
-	"msg": "",
-	"data": {
-		"reply": {
-			"reply_id": "834153964",
-			"content": "😂",
-			"portrait": "http://qzonestyle.gtimg.cn/qzone/secret/7.png",
-			"time": 1488381015,
-			"state": 0,
-			"uid": "",
-			"own": 1,
-			"p_uid": "c1a61ff11384a00a0cc71ebb3eedee7b7ddb9bb7ec01e0329e958cc32906415f",
-			"p_portrait": "http://qzonestyle.gtimg.cn/qzone/secret/200004.png",
-			"oper": 65536,
-			"portrait_id": 7,
-			"p_portrait_id": 0,
-			"talk_id": "",
-			"user": {
-				"uid": "",
-				"portrait": "",
-				"qua": "V1_AND_SQ_6.6.9_482_YYB_D",
-				"deviceinfo": "n=WIFI&o=Android 6.0",
-				"is_owner": 1,
-				"_classname": "WUP_SECRET_UGC.UgcUser"
-			},
-			"p_own": 0,
-			"p_talk_id": "",
-			"p_oper": 0,
-			"_classname": "WUP_SECRET_UGC.UgcReply"
-		},
-		"err_msg": "",
-		"feedsattr": 0,
-		"_classname": "WUP_SECRET_UGC.AddUgcReplyRsp"
-	}
-}
-```
-
-对话: 编不下去了 哈哈哈哈
+一个由我发起的匿名说说的 detail json
 
 ```json
 
@@ -2411,25 +2206,25 @@ replay someon get :
 
 
 
-我：
+**由不同时期回复不同的说说**得到的我的ID(没有中间的空格), 发现**前32位**是相同的, 其他用户同理.
 
-0526fdaa74510b85f963b423db17f782 db77f16cc73c828148ebb9f6c5a9da5c
+> 0526fdaa74510b85f963b423db17f782 db77f16cc73c828148ebb9f6c5a9da5c
 
-0526fdaa74510b85f963b423db17f782 db77f16cc73c828148ebb9f6c5a9da5c
+> 0526fdaa74510b85f963b423db17f782 db77f16cc73c828148ebb9f6c5a9da5c
 
-0526fdaa74510b85f963b423db17f782 8f29174c6d67123c58635a3dda921499
+> 0526fdaa74510b85f963b423db17f782 8f29174c6d67123c58635a3dda921499
 
-0526fdaa74510b85f963b423db17f782 056607454d3d0844bbe8bd279bd91112
+> 0526fdaa74510b85f963b423db17f782 056607454d3d0844bbe8bd279bd91112
 
 
 
 对方：
 
-c1a61ff11384a00a0cc71ebb3eedee7 bc9b6b48afe044f51a9a2b30603025984
+> c1a61ff11384a00a0cc71ebb3eedee7b c9b6b48afe044f51a9a2b30603025984
 
-c1a61ff11384a00a0cc71ebb3eedee7 bc9b6b48afe044f51a9a2b30603025984
+> c1a61ff11384a00a0cc71ebb3eedee7b c9b6b48afe044f51a9a2b30603025984
 
-c1a61ff11384a00a0cc71ebb3eedee7 bc9b6b48afe044f51a9a2b30603025984
+> c1a61ff11384a00a0cc71ebb3eedee7b c9b6b48afe044f51a9a2b30603025984
 
 
 
