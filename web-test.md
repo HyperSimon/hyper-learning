@@ -25,12 +25,3 @@
 
     *   [What is the difference between a test runner, testing framwork, assertion library, and a testing plugin?](http://amzotti.github.io/testing/2015/03/16/what-is-the-difference-between-a-test-runner-testing-framework-assertion-library-and-a-testing-plugin/)
     *	 [The Difference Between TDD and BDD](http://joshldavis.com/2013/05/27/difference-between-tdd-and-bdd/)
-
-
-test runner:    Jest
-test framework: Jest
-test coverage:  Jest
-mock:           Jest
-assertion:      Chai
-自动测试框架:     Macaca
-
